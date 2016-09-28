@@ -48,68 +48,39 @@ abstract class Admin_layout extends Base_layout {
             ),
         );
         $menu[] = Array(
-            "text"  => "Quản lý chuyên mục",
-            "icon"  => "fa-th-list",
-            "url"   => site_url('admin/categories'),
-            "child" => Array(
-                '0' => Array(
-                    "text" => "Thêm",
-                    "icon" => "fa-caret-right",
-                    "url"  => site_url('admin/categories/add'),
-                ),
-                '1' => Array(
-                    "text" => "Quản lý chuyên mục",
-                    "icon" => "fa-caret-right",
-                    "url"  => site_url('admin/categories'),
-                ),
-            ),
-        );
-        $menu[] = Array(
-            "text"  => "Quản lý tài liệu",
+            "text"  => "Quản lý blog",
             "icon"  => "fa-file-text-o",
-            "url"   => site_url('admin/documents'),
+            "url"   => site_url('admin/blog'),
             "child" => Array(
                 '0' => Array(
                     "text" => "Thêm",
                     "icon" => "fa-caret-right",
-                    "url"  => site_url('admin/documents/add'),
+                    "url"  => site_url('admin/blog/add'),
                 ),
                 '1' => Array(
-                    "text" => "Quản lý tài liệu",
+                    "text" => "Quản lý blog",
                     "icon" => "fa-caret-right",
-                    "url"  => site_url('admin/documents'),
+                    "url"  => site_url('admin/blog'),
                 ),
             ),
         );
+
         $menu[] = Array(
-            "text" => "Phương pháp học",
-            "icon" => "fa-dropbox",
-            "url"  => site_url('admin/learning_method'),
-        );
-        $menu[] = Array(
-            "text" => "Quản lý hình ảnh",
-            "icon" => "fa-file-image-o",
-            "url"  => site_url('admin/image_home'),
-        );
-        $menu[] = Array(
-            "text" => "Quản lý lớp học",
-            "icon" => "fa-university",
-            "url"  => site_url('admin/classes'),
-        );
-        $menu[] = Array(
-            "text" => "Quản lý phản hồi",
-            "icon" => "fa-inbox",
-            "url"  => site_url('admin/feedback_manage'),
-        );
-        $menu[] = Array(
-            "text" => "Quản lý hỏi đáp",
-            "icon" => "fa-question-circle-o",
-            "url"  => site_url('admin/questions'),
-        );
-        $menu[] = Array(
-            "text" => "System config",
-            "icon" => "fa-cogs",
-            "url"  => site_url('admin/system_config'),
+            "text" => "Quản lý gia sư",
+            "icon" => "fa fa-male",
+            "url"  => site_url('admin/giasu'),
+            "child" => Array(
+                '0' => Array(
+                    "text" => "Thêm",
+                    "icon" => "fa-caret-right",
+                    "url"  => site_url('admin/blog/add'),
+                ),
+                '1' => Array(
+                    "text" => "Quản lý gia sư",
+                    "icon" => "fa-caret-right",
+                    "url"  => site_url('admin/giasu'),
+                ),
+            ),
         );
         $data = Array(
             'view_file' => "admin/base_layout/side_bar_left",

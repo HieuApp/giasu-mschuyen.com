@@ -23,7 +23,7 @@
         <a href="#" class="navbar-brand">
             <small>
                 <i class="fa fa-tachometer" aria-hidden="true"></i>
-                Beedu
+                Gia su Ms. Chuyen
             </small>
         </a>
 

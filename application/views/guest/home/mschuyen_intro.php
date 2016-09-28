@@ -7,22 +7,20 @@
 
         <div class="row">
             <h5 class="blue-text text-darken-4 font-24">Giới thiệu chung</h5>
-            <p class="font-16">Gia sư Ms. Chuyen là một trung tâm chuyên tư vấn, đào tạo, dạy cho học sinh kiến thức về
-                các môn học theo hệ thống của nhà trường, ngoài ra tại đây chúng tôi cung cấp dịch vụ gia sư
-                tại nhà chuyên nghiệp cam kết về điểm số và sự đồng hành lâu dài. Chúng tôi mang đến cho
-                bạn môi trường, không gian học Ngoại Ngữ theo chuẩn quốc tế, chương trình chuyên biệt
-                được thiết kế dựa trên năng lực của người học.</p>
-            <h5 class="blue-text text-darken-4 font-24">Tầm nhìn, sứ mệnh, mục đích</h5>
-            <p class="font-16">Sứ mệnh của chúng tôi là giúp cho khách hàng đạt tới kết quả mong muốn bằng việc tăng
-                năng lực tổ chức, tư vấn, triển khai các lớp học giảng dạy chuyên nghiệp.</p>
+            <p class="font-16">Gia sư tâm giỏi, gia sư tâm huyết, gia sư tận tình chu đáo, giúp các con đạt được mục tiêu
+                mong muốn đề ra <br>
+                Gia sư Ms. chuyen còn là nơi cung cấp phương pháp dạy và học hiệu quả, giúp con cải thiện
+                điểm số từ 4 lên 10 điểm.</p>
+            <h5 class="blue-text text-darken-4 font-24">Tầm nhìn</h5>
+            <p class="font-16">Gia sư Ms. Chuyen được sinh ra trong thời đại tri thức và mong muốn của chúng tôi là đơn vị đi đầu trong:
+                <br>- Cung cấp dịch vụ gia sư tại nhà hàng đầu cho các phụ huynh
+                <br>- Phát triển kỹ năng của học sinh trong tiếp cận và xử lý vấn đề, phát triển kỹ năng sống
+                <br>- Phát triển năng lực của học sinh trong hiểu, vận dụng được trong học tập</p>
             <h5 class="blue-text text-darken-4 font-24">Giá trị cốt lõi</h5>
-            <p class="font-16">Gia sư Ms. Chuyen cung cấp dịch vụ tuyệt hảo bên cạnh sản phẩm chất lượng để giúp cho
-                dịch vụ được thực hiện.
-                Gia sư Ms. Chuyen giữ quan hệ đối tác chiến lược dài hạn trong làm kinh doanh với khách
-                hàng.
-                Gia sư Ms. Chuyen coi tin cậy là nền tảng để phát triển trung tâm, nhân viên và khách hàng.
-                Chất lượng của sản phẩm và dịch vụ được coi là cơ sở và quan trọng nhất cho sự tăng trưởng
-                của gia sư Ms. Chuyen.</p>
+            <p class="font-16">Gia sư Ms. Chuyen cung cấp dịch vụ tuyệt hảo bên cạnh sản phẩm chất lượng để giúp cho dịch
+                vụ được thực hiện. Gia sư Ms. Chuyen giữ quan hệ đối tác chiến lược dài hạn trong làm kinh doanh với
+                khách hàng. Gia sư Ms. Chuyen coi tin cậy là nền tảng để phát triển trung tâm, nhân viên và khách hàng.
+                Chất lượng của sản phẩm và dịch vụ được coi là cơ sở và quan trọng nhất cho sự tăng trưởng của gia sư Ms. Chuyen</p>
 
         </div>
 

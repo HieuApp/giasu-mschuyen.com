@@ -273,7 +273,6 @@ table td.contact-detail {
 }
 
 
-
 .download-footer {
     display: inline-flex;
     width: 100%;
@@ -306,7 +305,7 @@ table td.contact-detail {
 }
 
 .primary-font{
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .font-28{
@@ -322,7 +321,7 @@ table td.contact-detail {
 }
 
 .blog-title{
-    font-size: 24px;
+    font-size: 20px;
     margin-top: auto;
 }
 
@@ -340,9 +339,17 @@ table td.contact-detail {
 .blog-content{
     margin-left: 20px;
 }
+
+.padding-40{
+    padding: 40px !important;
+}
 .blog-item{
     padding: 20px;
     display: -webkit-box;
+}
+
+.img-blog{
+    width: 100%;
 }
 
 .blog-container{
