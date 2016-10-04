@@ -93,3 +93,4 @@ ERROR - 2016-09-28 01:03:33 --> 404 Page Not Found: Assets/plugins-bower
 ERROR - 2016-09-28 01:03:33 --> 404 Page Not Found: Assets/plugins-bower
 ERROR - 2016-09-28 01:03:38 --> 404 Page Not Found: Assets/plugins-bower
 ERROR - 2016-09-28 01:03:38 --> 404 Page Not Found: Assets/plugins-bower
+ERROR - 2016-09-28 22:14:35 --> 404 Page Not Found: Images/favicon.png

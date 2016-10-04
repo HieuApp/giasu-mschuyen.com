@@ -30,7 +30,7 @@
                                 if(strlen($value) > 250){
                                     $value = substr($value, 0, 250);
                                 }
-                                echo $value."..."?></i></p>
+                                echo $value."..."?></i><a href="<?php echo base_url("giasu/cv/".$item->id);?>"><b>xem thêm</b></a></p>
                     </div>
                 </div>
             <?php } ?>

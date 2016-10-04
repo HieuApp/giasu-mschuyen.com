@@ -1,7 +1,7 @@
 <div class="navbar-fixed">
     <nav class="white">
         <div class="nav-wrapper">
-            <a id="logo-container" href="<?php echo base_url("home"); ?>" class="brand-logo blue-text text-darken-3">Ms. Chuyen</a>
+            <a id="logo-container" href="<?php echo base_url("home"); ?>" class="brand-logo blue-text text-darken-3">Gia sư Ms. Chuyen</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse "><i
                     class="blue-text text-darken-3 material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">

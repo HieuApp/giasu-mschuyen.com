@@ -38,6 +38,7 @@
                                 $value = substr($value, 0, 250);
                             }
                             echo $value."..."?>
+                            <a href="<?php echo base_url("giasu/cv/".$item->id);?>"><b>xem thêm</b></a>
                         </p>
                     </div>
                 </div>
@@ -70,55 +71,57 @@
 <div class="container">
     <div class="section">
 
+
+        <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h5 class="blue-text blue-text text-darken-4">Phản hồi của phụ huynh</h5>
+
+        </div>
+
         <div class="row">
-            <div class="col s12 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h5 class="blue-text blue-text text-darken-4">Phản hồi của phụ huynh</h5>
+            <div class="col-xs-12 ">
+                <div class="mso-icon-nine">
+                    <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space pull-left"><img src="<?php echo base_url("upload/avatars/a3.png");?>" class="img-circle mso-nine-img hi-icon"></div>
+                    <h6 class="feedback-title">Chị Trần Oanh</h6>
+                    <small class="feedback-description">Có con gái học lớp 3 Vinschool</small>
+                    <p class="feedback-content"><i>"Các bạn gia sư tại trung tâm đã truyền được cảm hứng trong học tập giúp con tôi thích thú hơn trong các giờ học, việc lên kế hoạch cụ thể trong phương pháp học cũng mang lại hiệu quả tốt hơn cho bé."</i></p>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="mso-icon-nine">
+                    <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space pull-left"><img src="<?php echo base_url("upload/avatars/a1.png");?>" alt="Client" class="img-circle mso-nine-img hi-icon"></div>
 
+                    <h6 class="feedback-title">Chị Nguyễn Hồng Lê</h6>
+                    <small class="feedback-description"> Có con học lớp 8 trường
+                        Nguyễn Tất Thành</small>
+                    <p class="feedback-content">
+                        <i>"Tôi rất hài lòng, tôi luôn ủng hộ và tin tưởng dịch vụ của gia sư Ms.
+
+                            Chuyen, hiện tại tôi đã đăng kí với trung tâm để được trung tâm chăm sóc suốt quá trình con
+
+                            tôi còn đi học."</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="mso-icon-nine">
+                    <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space pull-left">
+                        <img src="<?php echo base_url("upload/avatars/a2.png");?>" alt="Client" class="img-circle mso-nine-img hi-icon">
+                    </div>
+
+                    <h6 class="feedback-title">Chị Hoàng Bích Dung</h6>
+                    <small class="feedback-description">Có con trai lớn học lớp 8
+                        trường Ngọc Thụy</small>
+                    <p class="feedback-content"><i>"Tôi thấy con tiến bộ lên nhiều kể từ khi gặp chị gia sư, con yêu thích môn
+
+                            Toán hơn(môn mà trước đây con thường xuyên sợ hãi mỗi khi phải học) Con vui vẻ hơn,
+
+                            chăm học hơn, dễ chia sẻ với chị gia sư để tôi có thể thêm hiểu về con, cũng như thông qua
+
+                            người thứ 3 tôi biết con nghĩ gì muốn gì cũng như uốn nắn con."</i></p>
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="mso-icon-nine">
-                        <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space pull-left"><img src="<?php echo base_url("upload/avatars/a3.png");?>" class="img-circle mso-nine-img hi-icon"></div>
-                        <h6 class="feedback-title">Chị Trần Oanh</h6>
-                        <small class="feedback-description">Phụ huynh của 2 bé lớp 3 và lớp
-                            7 tại Times City</small>
-                        <p class="feedback-content"><i>"Các bạn gia sư tại trung tâm đã truyền được cảm hứng trong học tập giúp con tôi thích thú hơn trong các giờ học, việc lên kế hoạch cụ thể trong phương pháp học cũng mang lại hiệu quả tốt hơn cho bé."</i></p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="mso-icon-nine">
-                        <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space pull-left"><img src="<?php echo base_url("upload/avatars/a1.png");?>" alt="Client" class="img-circle mso-nine-img hi-icon"></div>
-
-                        <h6 class="feedback-title">Chị Nguyễn Hồng Lê</h6>
-                        <small class="feedback-description"> Có con học lớp 8 trường
-                            Nguyễn Tất Thành</small>
-                        <p class="feedback-content"><i>"Tôi rất hài lòng, tôi luôn ủng hộ và tin tưởng dịch vụ của gia sư Ms.
-
-                                Chuyen, hiện tại tôi đã đăng kí với trung tâm để được trung tâm chăm sóc suốt quá trình con
-
-                                tôi còn đi học."</i></p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="mso-icon-nine">
-                        <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space pull-left"><img src="<?php echo base_url("upload/avatars/a2.png");?>" alt="Client" class="img-circle mso-nine-img hi-icon"></div>
-
-                        <h6 class="feedback-title">Chị Hoàng Bích Dung</h6>
-                        <small class="feedback-description">Có con trai lớn học lớp 8
-                            thuộc trường Vinschool</small>
-                        <p class="feedback-content"><i>"Tôi thấy con tiến bộ lên nhiều kể từ khi gặp chị gia sư, con yêu thích môn
-
-                                Toán hơn(môn mà trước đây con thường xuyên sợ hãi mỗi khi phải học) Con vui vẻ hơn,
-
-                                chăm học hơn, dễ chia sẻ với chị gia sư để tôi có thể thêm hiểu về con, cũng như thông qua
-
-                                người thứ 3 tôi biết con nghĩ gì muốn gì cũng như uốn nắn con."</i></p>
-                    </div>
-                </div>
-
-            </div>
         </div>
 
     </div>

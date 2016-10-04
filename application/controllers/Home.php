@@ -10,6 +10,10 @@
  */
 class Home extends Guest_layout {
 
+    const CHUYEN_ID = 8;
+    const PHUONG_ANH_ID = 4;
+    const HA_ID = 9;
+
     function __construct() {
         parent::__construct();
         $this->load->model('M_giasu', 'm_giasu');
@@ -19,7 +23,7 @@ class Home extends Guest_layout {
     public function index() {
         $result = $this->m_giasu->get_all();
         $blog = $this->m_blog->get_list_filter([], [], [], 4);
-//        echo "<pre>";
+//        echo "<pre>"
 //        var_dump($result);
         $tutor = array();
         foreach ($result as $item){
@@ -27,7 +31,10 @@ class Home extends Guest_layout {
                 array_push($tutor, $item);
             }
         };
-        $data['data'] = $tutor;
+
+        $sorted = array();
+        array_push($sorted, $tutor[1], $tutor[0], $tutor[2]);
+        $data['data'] = $sorted;
         $data['blog'] = $blog;
         $content = $this->load->view("guest/home/view", $data, TRUE);
         $this->show_page($content);
